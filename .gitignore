@@ -1,0 +1,11 @@
+.mypy_cache
+.virtualenv
+.pytest_cache
+__pycache__
+migrations
+staticfiles
+node_modules
+
+# Files
+db.sqlite3
+.env
