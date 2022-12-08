@@ -1,5 +1,5 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 
 
 def otakulogiabr(request):
-    return HttpResponse('Ok!')
+    return render(request, 'Blog/base.html')
