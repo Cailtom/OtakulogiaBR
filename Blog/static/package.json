@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "live-sass": "sass --no-source-map --watch scss/main.scss css/style-min.css --style compressed"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
