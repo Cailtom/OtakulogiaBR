@@ -6,6 +6,7 @@ migrations
 staticfiles
 node_modules
 
+
 # Files
 db.sqlite3
 .env
