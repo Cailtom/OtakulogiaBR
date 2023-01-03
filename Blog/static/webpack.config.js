@@ -6,7 +6,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
   mode: modoDev ? 'development' : 'production',
-  entry: './src/js/app.js',
+  entry: './index.js',
   output: {
     filename: "bootstrap-min.js",
     path: __dirname + "/dist",

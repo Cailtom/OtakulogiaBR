@@ -6,20 +6,21 @@
   "scripts": {
     "start": "webpack",
     "build": "cross-env NODE_ENV=production webpack",
-    "live-sass": "sass --no-source-map --watch scss/main.scss css/style-min.css --style compressed"
+    "live-sass": "sass --no-source-map --watch src/scss/main.scss dist/style-min.css --style compressed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "sass-convert": "^0.5.2"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
+    "cross-env": "^7.0.3",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
     "mini-css-extract-plugin": "^2.7.2",
