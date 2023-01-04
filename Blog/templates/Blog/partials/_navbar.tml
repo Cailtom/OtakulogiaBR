@@ -1,35 +1,45 @@
-<button
-  class="btn btn-primary"
-  type="button"
-  data-bs-toggle="offcanvas"
-  data-bs-target="#offcanvasWithBothOptions"
-  aria-controls="offcanvasWithBothOptions">
-
-  <i>=</i>
-</button>
-
-<div
-    class="offcanvas offcanvas-end"
-    data-bs-scroll="true" tabindex="-1"
-    id="offcanvasWithBothOptions"
-    aria-labelledby="offcanvasWithBothOptionsLabel">
-
-  <div class="offcanvas-header">
-    <h5
-      class="offcanvas-title"
-      id="offcanvasWithBothOptionsLabel">
-
-      Configurações
-    </h5>
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      OTAKULOGIABR
+    </a>
 
     <button
+      class="btn btn-navbar"
       type="button"
-      class="btn-close"
-      data-bs-dismiss="offcanvas"
-      aria-label="Close"></button>
-  </div>
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasWithBothOptions"
+      aria-controls="offcanvasWithBothOptions">
 
-  <div class="offcanvas-body">
-    <p>Conteudo aqui</p>
+      Menu
+    </button>
+
+    <div
+      class="offcanvas offcanvas-end"
+      data-bs-scroll="true" tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel">
+
+      <div class="offcanvas-header">
+        <h5
+          class="offcanvas-title"
+          id="offcanvasWithBothOptionsLabel">
+
+          Configurações
+        </h5>
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close">
+        </button>
+      </div>
+
+      <div class="offcanvas-body">
+        <p>Conteudo aqui</p>
+      </div>
+    </div>
+
   </div>
-</div>
+</nav>

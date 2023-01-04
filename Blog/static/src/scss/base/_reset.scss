@@ -1,6 +1,15 @@
 * {
   margin: 0;
-  background-color: rgb(4, 3, 34);
   padding: 0;
-  color: rgb(0, 136, 255);
+}
+
+
+body {
+  background-color: #000;
+}
+
+button:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline-style: none !important;
 }
