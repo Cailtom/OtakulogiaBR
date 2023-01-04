@@ -1,0 +1,17 @@
+nav {
+  &.navbar.bg-light {
+    background-color: #000 !important;
+  }
+
+  .container-fluid {
+    a {
+      color: #fff;
+      font-family:   "Noto Sans", sans-serif;
+      font-weight: bold;
+
+      &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+}
