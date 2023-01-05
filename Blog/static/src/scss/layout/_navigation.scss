@@ -1,17 +1,35 @@
+@use '../abstracts/variables';
+
 nav {
   &.navbar.bg-light {
-    background-color: #000 !important;
+    background-color: variables.$background-default !important;
   }
 
   .container-fluid {
     a {
-      color: #fff;
-      font-family:   "Noto Sans", sans-serif;
-      font-weight: bold;
+      color: variables.$color-text-default;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
 
       &:hover {
-        color: #fff !important;
+        color: variables.$color-text-default !important;
       }
+
+      span:nth-child(1) {
+        font-family: variables.$font-logo, cursive;
+      }
+
+      span:nth-child(2) {
+        font-size: 70%;
+        margin-top: -8px;
+        font-family: variables.$font-japanese, sans-serif;
+      }
+    }
+
+    .btn-navbar {
+      font-weight: bold;
+      color: variables.$color-text-default;
     }
   }
 }
