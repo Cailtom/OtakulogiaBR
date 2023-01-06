@@ -27,6 +27,10 @@ nav {
       }
     }
 
+    .offcanvas {
+      color: variables.$colo-text-dark;
+    }
+
     .btn-navbar {
       font-weight: bold;
       color: variables.$color-text-default;
